@@ -42,7 +42,7 @@ before they tap or pay.
 
 ```markdown
 **ScamKavach**: a free scam checker for UPI, SMS and WhatsApp messages, in English, हिंदी and मराठी.
-Live: https://blop77.github.io/Newproject/
+Live: https://blop77.github.io/ScamKavach/
 
 **How it works**
 1. The user pastes a suspicious message or link (or taps an example).
@@ -75,13 +75,13 @@ Live: https://blop77.github.io/Newproject/
 ## GitHub repository URL
 
 ```
-https://github.com/Blop77/Newproject
+https://github.com/Blop77/ScamKavach
 ```
 
 ## Demo URL (live app or video)
 
 ```
-https://blop77.github.io/Newproject/   (video: <YouTube link once uploaded>)
+https://blop77.github.io/ScamKavach/   (video: <YouTube link once uploaded>)
 ```
 
 ## Scale & severity of the problem

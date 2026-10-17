@@ -1,116 +1,116 @@
 1
-00:00:00,669 --> 00:00:05,685
+00:00:00,667 --> 00:00:05,683
 Hi! This is ScamKavach — a free scam checker for every Indian phone.
 
 2
-00:00:06,186 --> 00:00:11,844
+00:00:06,184 --> 00:00:11,842
 In 2024, Indians lost ₹22,845 crore to cyber fraud —
 
 3
-00:00:11,844 --> 00:00:16,328
+00:00:11,842 --> 00:00:16,326
 three times more than the year before.
 
 4
-00:00:16,328 --> 00:00:19,399
+00:00:16,326 --> 00:00:19,397
 Over 36 lakh fraud complaints were filed.
 
 5
-00:00:19,399 --> 00:00:23,819
+00:00:19,397 --> 00:00:23,817
 And half of UPI fraud victims never even report it.
 
 6
-00:00:24,319 --> 00:00:27,731
+00:00:24,317 --> 00:00:27,729
 ScamKavach is simple. Paste any suspicious SMS,
 
 7
-00:00:27,731 --> 00:00:30,146
+00:00:27,729 --> 00:00:30,144
 WhatsApp message or link.
 
 8
-00:00:31,320 --> 00:00:34,785
+00:00:31,317 --> 00:00:34,782
 In one tap, you see whether it's a scam — and exactly why.
 
 9
-00:00:34,785 --> 00:00:38,156
+00:00:34,782 --> 00:00:38,153
 Here it caught a fake SBI link pretending to be the bank,
 
 10
-00:00:38,156 --> 00:00:42,659
+00:00:38,153 --> 00:00:42,656
 a threat to block the account, and panic words like “immediately”.
 
 11
-00:00:43,161 --> 00:00:46,291
+00:00:43,158 --> 00:00:46,288
 Then it tells you what to do: don't click, don't pay,
 
 12
-00:00:46,291 --> 00:00:49,372
+00:00:46,288 --> 00:00:49,369
 never share an OTP, and report the sender.
 
 13
-00:00:49,873 --> 00:00:54,164
+00:00:49,869 --> 00:00:54,160
 It's built for Bharat. The whole app works in Hindi and Marathi.
 
 14
-00:00:54,664 --> 00:00:57,318
+00:00:54,659 --> 00:00:57,313
 This is the UPI refund trick. Remember:
 
 15
-00:00:57,318 --> 00:01:00,981
+00:00:57,313 --> 00:01:00,976
 you never need your UPI PIN to receive money.
 
 16
-00:01:01,665 --> 00:01:04,767
+00:01:01,660 --> 00:01:04,762
 Here's a fake “digital arrest” threat in Marathi.
 
 17
-00:01:04,767 --> 00:01:08,722
+00:01:04,762 --> 00:01:08,717
 There is no such thing as a digital arrest — and ScamKavach says so,
 
 18
-00:01:08,722 --> 00:01:10,892
+00:01:08,717 --> 00:01:10,887
 in the user's own language.
 
 19
-00:01:11,392 --> 00:01:16,905
+00:01:11,388 --> 00:01:16,901
 It doesn't cry wolf. A genuine bank OTP message is recognised as normal.
 
 20
-00:01:16,905 --> 00:01:21,899
+00:01:16,901 --> 00:01:21,895
 57 automated tests check both scams and real messages.
 
 21
-00:01:22,400 --> 00:01:25,088
+00:01:22,396 --> 00:01:25,084
 Every scam result has a one-tap WhatsApp alert,
 
 22
-00:01:25,088 --> 00:01:28,205
+00:01:25,084 --> 00:01:28,201
 so the warning spreads faster than the scam.
 
 23
-00:01:28,706 --> 00:01:33,526
+00:01:28,704 --> 00:01:33,524
 Already lost money? Call 1930, the national cyber crime helpline,
 
 24
-00:01:33,526 --> 00:01:35,535
+00:01:33,524 --> 00:01:35,533
 right from the app.
 
 25
-00:01:36,034 --> 00:01:40,495
+00:01:36,032 --> 00:01:40,493
 Four golden rules stay on screen, to stop fraud before it starts.
 
 26
-00:01:41,034 --> 00:01:44,179
+00:01:41,033 --> 00:01:44,178
 And it's private. Your message never leaves your phone.
 
 27
-00:01:44,179 --> 00:01:48,533
+00:01:44,178 --> 00:01:48,532
 No login, no server — and it works even on low-end phones.
 
 28
-00:01:49,034 --> 00:01:54,598
-Try it free at blop77.github.io/Newproject. Stay safe —
+00:01:49,033 --> 00:01:54,609
+Try it free at blop77.github.io/ScamKavach. Stay safe —
 
 29
-00:01:54,598 --> 00:01:59,042
+00:01:54,609 --> 00:01:59,062
 and if you're ever scammed, call 1930.
 

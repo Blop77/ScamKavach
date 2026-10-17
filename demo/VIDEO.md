@@ -31,8 +31,8 @@ ScamKavach — Free UPI & SMS Scam Checker in English, Hindi, Marathi | Code for
 ScamKavach checks a suspicious SMS, WhatsApp message or link before you click, call or pay —
 in English, हिंदी and मराठी.
 
-Try it free: https://blop77.github.io/Newproject/
-Source code: https://github.com/Blop77/Newproject
+Try it free: https://blop77.github.io/ScamKavach/
+Source code: https://github.com/Blop77/ScamKavach
 
 What it does:
 • Instant verdict: Very likely a scam / Suspicious / No common scam signs found
