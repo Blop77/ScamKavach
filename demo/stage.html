@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ScamKavach demo stage</title>
+<style>
+  @font-face { font-family: 'Noto Sans Devanagari'; font-weight: 100 900; src: url(../fonts/noto-sans-devanagari-devanagari.woff2) format('woff2'); unicode-range: U+0900-097F, U+200C-200D, U+20B9, U+25CC; }
+  @font-face { font-family: 'Noto Sans Devanagari'; font-weight: 100 900; src: url(../fonts/noto-sans-devanagari-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+2000-206F, U+2212; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; }
+  body {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+    color: #fff;
+    background: radial-gradient(1200px 800px at 20% 20%, #13775f 0%, #0b4a3c 45%, #062a22 100%);
+  }
+  .panel { position: absolute; left: 140px; top: 0; width: 980px; height: 1080px; display: flex; flex-direction: column; justify-content: center; }
+  .step { font-size: 30px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #8fe3c8; margin-bottom: 18px; }
+  .title { font-size: 76px; font-weight: 800; line-height: 1.12; margin: 0 0 28px; }
+  .body { font-size: 38px; line-height: 1.45; color: #d6efe7; margin: 0; }
+  .fade { transition: opacity 0.45s ease, transform 0.45s ease; }
+  .hide { opacity: 0; transform: translateY(16px); }
+  .phone {
+    position: absolute; right: 170px; top: 50%;
+    width: 418px; height: 872px;
+    transform: translateY(-50%) scale(1.15); transform-origin: center;
+    border-radius: 54px; background: #0d0f0e; padding: 14px;
+    box-shadow: 0 40px 120px rgba(0,0,0,0.55), 0 0 0 2px #2b332f inset;
+  }
+  .phone iframe { width: 390px; height: 844px; border: 0; border-radius: 40px; background: #fff; }
+  .overlay {
+    position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; padding: 0 160px;
+    background: radial-gradient(1200px 800px at 50% 30%, #13775f 0%, #0b4a3c 50%, #062a22 100%);
+    z-index: 5;
+  }
+  .overlay h1 { font-size: 120px; margin: 24px 0 10px; font-weight: 800; }
+  .overlay .sub { font-size: 46px; color: #d6efe7; margin: 0 0 40px; }
+  .overlay .tag { font-size: 32px; color: #8fe3c8; font-weight: 700; letter-spacing: 0.06em; }
+  .logo { width: 150px; height: 150px; color: #fff; }
+  .stats { display: flex; gap: 40px; margin-top: 30px; }
+  .stat { width: 470px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18); border-radius: 28px; padding: 40px 30px; }
+  .stat b { display: block; font-size: 84px; color: #ffd27a; line-height: 1.1; }
+  .stat span { display: block; font-size: 32px; color: #e5f5ef; margin-top: 14px; line-height: 1.35; }
+  .stat small { display: block; font-size: 22px; color: #9cc9b9; margin-top: 16px; }
+  .links { font-size: 48px; line-height: 1.7; }
+  .links b { color: #ffd27a; }
+</style>
+</head>
+<body>
+  <div class="panel">
+    <div id="step" class="step fade"></div>
+    <h2 id="title" class="title fade"></h2>
+    <p id="body" class="body fade"></p>
+  </div>
+  <div class="phone"><iframe id="app" src="../index.html"></iframe></div>
+
+  <div id="overlay" class="overlay fade">
+    <div id="overlay-content"></div>
+  </div>
+
+  <script>
+    var LOGO = '<svg class="logo" viewBox="0 0 64 64"><path d="M32 4 8 13v17c0 15 10 26 24 30 14-4 24-15 24-30V13L32 4Z" fill="currentColor"/><path d="m21 32 8 8 15-16" fill="none" stroke="#0b5d4b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    var SCENES = {
+      title: LOGO + '<h1>ScamKavach</h1><p class="sub">Check a suspicious message before you click, call or pay.</p><div class="tag">CODE FOR A BILLION · FINANCIAL INCLUSION TRACK</div>',
+      problem: '<div class="tag">THE PROBLEM</div><div class="stats">' +
+        '<div class="stat"><b>₹22,845 cr</b><span>lost by Indians to cyber fraud in 2024 — up 206% in a year</span><small>MHA, Lok Sabha, July 2025</small></div>' +
+        '<div class="stat"><b>36 lakh+</b><span>financial fraud complaints filed in 2024</span><small>MHA, Lok Sabha, July 2025</small></div>' +
+        '<div class="stat"><b>51%</b><span>of UPI fraud victims never even report it</span><small>LocalCircles survey</small></div>' +
+        '</div>',
+      outro: LOGO + '<h1>ScamKavach</h1><div class="links">Try it free: <b>blop77.github.io/Newproject</b><br>Open source: <b>github.com/Blop77/Newproject</b><br>Lost money to fraud? Call <b>1930</b></div>'
+    };
+    window.showOverlay = function (name) {
+      document.getElementById('overlay-content').innerHTML = SCENES[name];
+      document.getElementById('overlay').classList.remove('hide');
+    };
+    window.hideOverlay = function () { document.getElementById('overlay').classList.add('hide'); };
+    window.caption = function (step, title, body) {
+      var els = ['step', 'title', 'body'].map(function (id) { return document.getElementById(id); });
+      els.forEach(function (e) { e.classList.add('hide'); });
+      setTimeout(function () {
+        els[0].textContent = step; els[1].textContent = title; els[2].textContent = body;
+        els.forEach(function (e) { e.classList.remove('hide'); });
+      }, 450);
+    };
+  </script>
+</body>
+</html>
