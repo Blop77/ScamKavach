@@ -119,26 +119,28 @@ https://youtu.be/ZSiKwxgo8hc
 
 ## Deployment & impact data
 
-Fill this in **only with real numbers** you collected. Template:
+If you collect real feedback-form responses before submitting, add them here. Only add
+numbers you actually measured.
 
 ```markdown
 **Deployment**
-- Live since <date> at <URL>. Shared through <college WhatsApp groups / housing societies
-  in Pune / family groups / a session at MIT-WPU / ...>.
+- Live since 17 Oct 2026 at https://blop77.github.io/ScamKavach/. Free, no install, no login,
+  under 250 KB, and it works in any phone browser.
 
-**Reach** (from your feedback form / survey and share counts)
-- <N> people used it (survey responses, WhatsApp group members reached, etc.)
-- <N> scam messages they reported checking
+**Status**
+- We launched on 17 Oct 2026, so we don't have usage numbers yet. We chose not to report
+  figures we haven't measured.
 
-**Outcomes**
-- In a follow-up survey of <N> users: <X>% said ScamKavach stopped them from clicking or
-  paying; <X>% learned about the 1930 helpline for the first time.
-- <Real story, with permission: "A user's parent got a fake electricity-bill disconnection
-  SMS; ScamKavach flagged it and they didn't call the number.">
+**What we have verified**
+- 57 automated tests pass, and they run on every push via GitHub Actions. They cover real scam
+  patterns in English, Hindi, Marathi and Hinglish, plus genuine bank OTPs, UPI alerts and
+  delivery messages, to make sure the app doesn't flag real messages as scams.
 
-**Before / after**
-- Before: <X>% of surveyed users could correctly spot 5 sample scams.
-- After 1 week of using ScamKavach: <Y>%.
+**How we will measure impact**
+- A feedback form is built into the app ("Was this helpful?" in the footer). It asks whether
+  ScamKavach stopped the user from clicking or paying, which scam it was, and whether they
+  already knew about the 1930 helpline.
+- We are sharing the app in family, college and housing-society WhatsApp groups in Pune.
 ```
 
 ## Track / category
