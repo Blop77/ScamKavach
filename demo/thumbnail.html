@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ScamKavach thumbnail</title>
+<!-- Rendered to thumbnail.jpg (1280x720) by make_thumbnail.js. -->
+<style>
+  @font-face { font-family: 'Noto Sans Devanagari'; font-weight: 100 900; src: url(../fonts/noto-sans-devanagari-devanagari.woff2) format('woff2'); unicode-range: U+0900-097F, U+200C-200D, U+20B9, U+25CC; }
+  @font-face { font-family: 'Noto Sans Devanagari'; font-weight: 100 900; src: url(../fonts/noto-sans-devanagari-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+2000-206F, U+2212; }
+  * { box-sizing: border-box; }
+  html { background: #062a22; }
+  html, body { margin: 0; width: 1280px; height: 720px; overflow: hidden; }
+  body {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+    color: #fff;
+    background: radial-gradient(900px 700px at 25% 30%, #15806a 0%, #0b4a3c 50%, #062a22 100%) no-repeat;
+    position: relative;
+  }
+  .brand { position: absolute; left: 56px; top: 44px; display: flex; align-items: center; gap: 14px; font-size: 40px; font-weight: 800; }
+  .brand svg { width: 52px; height: 52px; }
+  .headline { position: absolute; left: 56px; top: 150px; width: 700px; }
+  .headline h1 { margin: 0; font-size: 104px; line-height: 1.0; font-weight: 900; letter-spacing: -1px; }
+  .headline h1 .hl { color: #ffd23f; }
+  .scam { display: inline-block; background: #e5322d; color: #fff; padding: 0 18px 6px; border-radius: 16px; transform: rotate(-3deg); margin-top: 8px; }
+  .sub { margin-top: 30px; font-size: 38px; font-weight: 700; color: #d9f3ea; }
+  .langs { margin-top: 18px; display: flex; gap: 12px; }
+  .langs span { font-size: 32px; font-weight: 700; background: rgba(255,255,255,0.14); border: 2px solid rgba(255,255,255,0.35); border-radius: 999px; padding: 2px 22px 6px; }
+  .phone {
+    position: absolute; right: 70px; top: 46px;
+    width: 418px; height: 872px; transform: scale(0.72); transform-origin: top right;
+    border-radius: 54px; background: #0d0f0e; padding: 14px;
+    box-shadow: 0 30px 90px rgba(0,0,0,0.6), 0 0 0 3px #2b332f inset;
+  }
+  .phone iframe { width: 390px; height: 844px; border: 0; border-radius: 40px; background: #fff; }
+  .badge {
+    position: absolute; right: 300px; bottom: 54px;
+    background: #ffd23f; color: #17201d; font-size: 34px; font-weight: 900;
+    padding: 6px 22px 10px; border-radius: 14px; transform: rotate(-4deg);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+  }
+</style>
+</head>
+<body>
+  <div class="brand">
+    <svg viewBox="0 0 64 64"><path d="M32 4 8 13v17c0 15 10 26 24 30 14-4 24-15 24-30V13L32 4Z" fill="#fff"/><path d="m21 32 8 8 15-16" fill="none" stroke="#0b5d4b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    ScamKavach
+  </div>
+  <div class="headline">
+    <h1>Is this SMS<br>a <span class="scam">SCAM?</span></h1>
+    <div class="sub">Check <span style="color:#ffd23f">FREE</span> in 5 seconds</div>
+    <div class="langs"><span>English</span><span>हिंदी</span><span>मराठी</span></div>
+  </div>
+  <div class="phone"><iframe id="app" src="../index.html"></iframe></div>
+  <div class="badge">Lost money? Call 1930</div>
+</body>
+</html>
