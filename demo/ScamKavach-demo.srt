@@ -1,0 +1,116 @@
+1
+00:00:00,669 --> 00:00:05,685
+Hi! This is ScamKavach — a free scam checker for every Indian phone.
+
+2
+00:00:06,186 --> 00:00:11,844
+In 2024, Indians lost ₹22,845 crore to cyber fraud —
+
+3
+00:00:11,844 --> 00:00:16,328
+three times more than the year before.
+
+4
+00:00:16,328 --> 00:00:19,399
+Over 36 lakh fraud complaints were filed.
+
+5
+00:00:19,399 --> 00:00:23,819
+And half of UPI fraud victims never even report it.
+
+6
+00:00:24,319 --> 00:00:27,731
+ScamKavach is simple. Paste any suspicious SMS,
+
+7
+00:00:27,731 --> 00:00:30,146
+WhatsApp message or link.
+
+8
+00:00:31,320 --> 00:00:34,785
+In one tap, you see whether it's a scam — and exactly why.
+
+9
+00:00:34,785 --> 00:00:38,156
+Here it caught a fake SBI link pretending to be the bank,
+
+10
+00:00:38,156 --> 00:00:42,659
+a threat to block the account, and panic words like “immediately”.
+
+11
+00:00:43,161 --> 00:00:46,291
+Then it tells you what to do: don't click, don't pay,
+
+12
+00:00:46,291 --> 00:00:49,372
+never share an OTP, and report the sender.
+
+13
+00:00:49,873 --> 00:00:54,164
+It's built for Bharat. The whole app works in Hindi and Marathi.
+
+14
+00:00:54,664 --> 00:00:57,318
+This is the UPI refund trick. Remember:
+
+15
+00:00:57,318 --> 00:01:00,981
+you never need your UPI PIN to receive money.
+
+16
+00:01:01,665 --> 00:01:04,767
+Here's a fake “digital arrest” threat in Marathi.
+
+17
+00:01:04,767 --> 00:01:08,722
+There is no such thing as a digital arrest — and ScamKavach says so,
+
+18
+00:01:08,722 --> 00:01:10,892
+in the user's own language.
+
+19
+00:01:11,392 --> 00:01:16,905
+It doesn't cry wolf. A genuine bank OTP message is recognised as normal.
+
+20
+00:01:16,905 --> 00:01:21,899
+57 automated tests check both scams and real messages.
+
+21
+00:01:22,400 --> 00:01:25,088
+Every scam result has a one-tap WhatsApp alert,
+
+22
+00:01:25,088 --> 00:01:28,205
+so the warning spreads faster than the scam.
+
+23
+00:01:28,706 --> 00:01:33,526
+Already lost money? Call 1930, the national cyber crime helpline,
+
+24
+00:01:33,526 --> 00:01:35,535
+right from the app.
+
+25
+00:01:36,034 --> 00:01:40,495
+Four golden rules stay on screen, to stop fraud before it starts.
+
+26
+00:01:41,034 --> 00:01:44,179
+And it's private. Your message never leaves your phone.
+
+27
+00:01:44,179 --> 00:01:48,533
+No login, no server — and it works even on low-end phones.
+
+28
+00:01:49,034 --> 00:01:54,598
+Try it free at blop77.github.io/Newproject. Stay safe —
+
+29
+00:01:54,598 --> 00:01:59,042
+and if you're ever scammed, call 1930.
+
