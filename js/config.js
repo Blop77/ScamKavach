@@ -4,5 +4,5 @@ window.SCAMKAVACH_CONFIG = {
   siteUrl: 'https://blop77.github.io/ScamKavach/',
   // Optional: link to a Google Form (or similar) for user feedback and impact data.
   // Leave empty to hide the feedback link.
-  feedbackUrl: ''
+  feedbackUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSdYTubdIvGYNutOez_wr54aPHXQRfKD8cjVLK_f6W_9l1U5mg/viewform?usp=header'
 };
