@@ -6,7 +6,7 @@ ScamKavach is a free scam checker for UPI, SMS and WhatsApp messages in **Englis
 Paste a message or link and it tells you in plain language whether it looks like a scam, **why**,
 and **what to do next**. That includes the 1930 cyber-fraud helpline if you have already lost money.
 
-**Live app:** https://blop77.github.io/ScamKavach/
+**Live app:** https://blop77.github.io/ScamKavach/ · **Demo video:** https://youtu.be/ZSiKwxgo8hc
 
 Built for the [Code for a Billion](https://github.com/karlmehta/code-for-a-billion) hackathon, **Financial Inclusion** track.
 
