@@ -1,0 +1,9 @@
+{
+  "name": "ScamKavach — Scam message checker",
+  "short_name": "ScamKavach",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f5",
+  "theme_color": "#0b5d4b",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

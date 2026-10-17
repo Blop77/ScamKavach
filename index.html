@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ScamKavach — Scam message checker</title>
+  <meta name="description" content="Free scam checker for UPI, SMS and WhatsApp messages in English, Hindi and Marathi. Works on your phone, nothing is uploaded.">
+  <meta name="theme-color" content="#0b5d4b">
+  <meta property="og:title" content="ScamKavach — Is this message a scam?">
+  <meta property="og:description" content="Check suspicious SMS, WhatsApp messages and links in English, हिंदी or मराठी before you click, call or pay.">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
+        <path d="M32 4 8 13v17c0 15 10 26 24 30 14-4 24-15 24-30V13L32 4Z" fill="currentColor"/>
+        <path d="m21 32 8 8 15-16" fill="none" stroke="var(--on-brand)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>ScamKavach</span>
+    </div>
+    <div class="langs" role="group" aria-label="Language">
+      <button type="button" data-lang="en">English</button>
+      <button type="button" data-lang="hi">हिंदी</button>
+      <button type="button" data-lang="mr">मराठी</button>
+    </div>
+  </header>
+
+  <main>
+    <p class="tagline" data-i18n="tagline"></p>
+
+    <section class="card checker">
+      <label for="msg" data-i18n="inputLabel"></label>
+      <textarea id="msg" rows="6" data-i18n-placeholder="placeholder"></textarea>
+      <div class="actions">
+        <button type="button" id="check" class="primary" data-i18n="check"></button>
+        <button type="button" id="clear" class="ghost" data-i18n="clear"></button>
+      </div>
+      <div class="examples">
+        <span data-i18n="examples"></span>
+        <div id="example-list" class="chips"></div>
+      </div>
+      <p class="privacy"><span aria-hidden="true">🔒</span> <span data-i18n="privacy"></span></p>
+    </section>
+
+    <section id="result" class="card result" hidden aria-live="polite">
+      <div class="verdict">
+        <span class="verdict-icon" aria-hidden="true"></span>
+        <h2 id="verdict-title"></h2>
+      </div>
+      <p id="otp-notice" class="notice" hidden></p>
+      <p id="low-note" class="muted" hidden></p>
+      <div id="why-block">
+        <h3 data-i18n="whyTitle"></h3>
+        <ul id="why" class="reasons"></ul>
+      </div>
+      <h3 data-i18n="doTitle"></h3>
+      <ul id="todo" class="todo"></ul>
+      <div class="actions">
+        <button type="button" id="speak" class="ghost"></button>
+        <a id="share" class="whatsapp" target="_blank" rel="noopener" hidden></a>
+      </div>
+    </section>
+
+    <section class="card lost">
+      <h2 data-i18n="lostTitle"></h2>
+      <ol id="lost-steps"></ol>
+      <a class="call" href="tel:1930"><span aria-hidden="true">📞</span> 1930</a>
+    </section>
+
+    <section class="card rules">
+      <h2 data-i18n="rulesTitle"></h2>
+      <ol id="rules"></ol>
+    </section>
+  </main>
+
+  <footer>
+    <p><a id="feedback" target="_blank" rel="noopener" data-i18n="feedback" hidden></a></p>
+    <p class="muted" data-i18n="disclaimer"></p>
+    <p><a href="https://github.com/Blop77/Newproject" target="_blank" rel="noopener" data-i18n="source"></a></p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/engine.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

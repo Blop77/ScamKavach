@@ -41,29 +41,35 @@ before they tap or pay.
 ## What you built
 
 ```markdown
-**ScamKavach**: a free scam and fraud checker for UPI and SMS/WhatsApp messages.
+**ScamKavach**: a free scam checker for UPI, SMS and WhatsApp messages, in English, हिंदी and मराठी.
+Live: https://blop77.github.io/Newproject/
 
 **How it works**
-1. The user pastes or forwards a suspicious message, link, phone number or UPI ID.
-2. A rule engine checks it for known fraud patterns: fake KYC/bank alerts, lottery and
-   prize scams, fake job offers, "collect request = refund" tricks, shortened or look-alike
-   URLs, urgency or threat language, and requests for a PIN or OTP.
-3. An AI layer explains the result in simple **Hindi, Marathi or English**:
-   *Likely scam / Suspicious / Looks safe*, *why*, and *what to do now*.
-4. If the user has already lost money, it shows the **1930** helpline and a
-   **cybercrime.gov.in** reporting checklist. Reporting quickly is what makes it possible
-   to freeze the money.
+1. The user pastes a suspicious message or link (or taps an example).
+2. A detection engine with 18 weighted rules and a link analyser checks it for known Indian fraud
+   patterns: OTP/PIN requests, "enter UPI PIN to receive money" collect-request tricks, fake KYC and
+   account-block threats, KBC/lottery prizes, electricity-disconnection threats, task jobs, fake
+   trading groups, AnyDesk/APK installs, "digital arrest" threats, fees before a job or prize, instant
+   loan apps and family impersonation. It works on messages written in English, Hindi, Marathi and
+   Hinglish.
+3. The link analyser catches look-alike bank links (e.g. `sbi-kyc-update.xyz`) by comparing them
+   against official domains and the `.gov.in` / `.bank.in` suffixes, plus URL shorteners, IP links
+   and risky domains.
+4. The result is shown in plain language: *Very likely a scam / Suspicious / No common scam signs
+   found*, with **why** (the exact words that triggered it) and **what to do now**.
+5. If the user has already lost money, there is a one-tap call to **1930** plus links to
+   **cybercrime.gov.in** and **Sanchar Saathi (Chakshu)**.
 
 **Key features**
-- Works on low-end phones with a lightweight web app (no install needed)
-- Multilingual output with a read-aloud option for users who can't read easily
-- No login, and messages aren't stored. Only anonymous counts are kept for impact tracking.
-- <Any extra feature you actually build, e.g. WhatsApp bot, browser extension>
+- **Private by design:** everything runs on the phone. No login, no server, the message is never uploaded.
+- **Doesn't cry wolf:** recognises genuine "do not share" OTP messages. 57 automated tests cover
+  both scams and real bank, delivery and family messages.
+- Read-aloud for users who find reading hard, and a one-tap "Warn family on WhatsApp" share.
+- Under 250 KB and no install, so it works on low-end phones and slow networks.
 
 **How we used AgentFoundry (AF)**
-- <Be specific and truthful, e.g. "Started the project in AF and used its agents to
-  generate the scam-pattern rule set, build the web UI, write tests for 200+ sample
-  scam/real messages, and iterate on the Hindi/Marathi explanations.">
+- <Be specific and truthful about what you did in AF, e.g. which features or rules you built or
+  improved there, and how its agents helped.>
 ```
 
 ## GitHub repository URL
@@ -75,7 +81,7 @@ https://github.com/Blop77/Newproject
 ## Demo URL (live app or video)
 
 ```
-<https://blop77.github.io/Newproject/  or  https://youtu.be/...>
+https://blop77.github.io/Newproject/   (video: <YouTube link once uploaded>)
 ```
 
 ## Scale & severity of the problem
@@ -120,9 +126,9 @@ Fill this in **only with real numbers** you collected. Template:
 - Live since <date> at <URL>. Shared through <college WhatsApp groups / housing societies
   in Pune / family groups / a session at MIT-WPU / ...>.
 
-**Reach** (anonymous counts from the app)
-- <N> unique users, <N> messages checked
-- <N> flagged as likely scam (<X>%)
+**Reach** (from your feedback form / survey and share counts)
+- <N> people used it (survey responses, WhatsApp group members reached, etc.)
+- <N> scam messages they reported checking
 
 **Outcomes**
 - In a follow-up survey of <N> users: <X>% said ScamKavach stopped them from clicking or
