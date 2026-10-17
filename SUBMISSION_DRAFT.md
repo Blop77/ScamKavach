@@ -23,7 +23,7 @@ in "Deployment & impact data" that you did not actually measure.
 ## Team members (names + GitHub handles)
 
 ```
-<Your name> (@blop77), <Teammate> (@<handle>)
+<Your name> (@Blop77), <Teammate> (@<handle>)
 ```
 
 ## Problem statement
@@ -69,13 +69,13 @@ before they tap or pay.
 ## GitHub repository URL
 
 ```
-https://github.com/blop77/newproject
+https://github.com/Blop77/Newproject
 ```
 
 ## Demo URL (live app or video)
 
 ```
-<https://blop77.github.io/newproject/  or  https://youtu.be/...>
+<https://blop77.github.io/Newproject/  or  https://youtu.be/...>
 ```
 
 ## Scale & severity of the problem
